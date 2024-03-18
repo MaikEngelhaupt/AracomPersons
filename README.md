@@ -1,6 +1,39 @@
 # AracomPersons
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+## Aufgaben
+
+### Aufgabe 1
+Laden sie die Personen über die bereitgestellt API: https://aracom.de/api/persons.php
+
+Eine Typescript Klasse Person wird vorgegeben.
+
+```typescript
+export class Person {
+  firstName: string;
+  lastName: string;
+  birthday: date;
+}
+```
+
+Stellen sie die Personen in einer Tabelle dar und formatieren Sie die Spalten entsprechend.
+
+### Aufgabe 2
+Sortieren Sie die Daten nach dem Vornamen in alphabetischer Reihenfolge.
+Dies soll folgendes erfüllen:
+- Ausgabe in folgendem Format: 1. Emma, 2. Ben, 3. Paul
+- Effizienz auch bei vielen Vornamen
+- Umgang mit Null Werten
+ 
+### Aufgabe 3
+Erstellen Sie eine Möglichkeit eine neue Person der bestehenden Liste hinzufügen. Dies soll über eine Benutzereingabe möglich sein.  
+Halten Sie sich hier an die entsprechenden Richtlinien Ihres Frameworks.  
+Vor- und Nachname sollen Pflichtfelder sein. Das Geburtstdatum soll der Nutzer über einen Datepicker auswählen können. Stellen sie sicher, dass dieses in der Vergangenheit liegt.
+
+Neue Einträge sollen sortiert in die Tabelle aufgenommen und angezeigt werden.
+Das Formular zum Hinzufügen soll auf einer anderen Seite als die Tabelle sein.
+
+### Aufgabe 4
+Gestalten Sie Ihre Lösung mittels CSS ansprechend. Gerne kann dafür ein Framework wie [Bootstrap](https://getbootstrap.com/) oder [Tailwind](https://tailwindcss.com/) eingesetzt werden.
 
 ## Development server
 
